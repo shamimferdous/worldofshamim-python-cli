@@ -12,4 +12,6 @@ print(art_1)
 art_2 = text2art("Mr Ferdous")  # return art as str in normal mode
 print(art_2)
 
+implicit_command = input('>>> Enter your: ')
+
 #os.system("start cmd /K code")

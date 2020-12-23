@@ -29,10 +29,10 @@ def greet():
 
 def commands():
     cmd_1 = "\nRun command 'fire-stack' and I'll start the whole current development environment"
-    print(Fore.MAGENTA + cmd_1)
+    print(Fore.YELLOW + cmd_1)
 
     cmd_2 = "Run command 'fire-server' and I'll only start the backend server"
-    print(Fore.MAGENTA + cmd_2)
+    print(Fore.YELLOW + cmd_2)
 
     cmd_3 = "Run command 'fire-stack-v2' and I'll start the whole alternate development environment"
-    print(Fore.MAGENTA + cmd_3)
+    print(Fore.YELLOW + cmd_3)
